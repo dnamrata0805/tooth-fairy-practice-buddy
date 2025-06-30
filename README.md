@@ -8,12 +8,16 @@ This command runs the node server that serves mock patients
 ## What to do
 - Patient list page should be able to fetch initial patients
 - It should be able to search through the patients on the backend side
-- There should be a fallback for loading and error states
-- Refactor patient list page and suggest other improvements
+- There should be a general fallback for loading and error states.
 
 ## Bonus
+- Refactor patient list page and suggest other improvements
 - Render a multi-selectable document list in the patient details page.
 - Add a functional delete button for the selected documents
+
+## Assumptions
+- The app will potentially have many interactions with 40+ APIs in the backend across all the user flows
+- The users will expect good performance, especially for the patient list including search functionality. (There can be upto 10,000 patients per doctor)
 
 
 ## Tech notes
